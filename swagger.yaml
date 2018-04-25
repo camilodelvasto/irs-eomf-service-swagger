@@ -453,7 +453,7 @@ definitions:
         EIN:
           type: integer
           format: int64
-        validatedAt:
+        createdAt:
           type: string
           format: date-time
         updatedAt:
