@@ -92,10 +92,10 @@ paths:
           description: Error
           schema:
             $ref: "#/definitions/ErrorResponse"
-  /update/clear:
+  /update/download/prepare:
     # binds a127 app logic to a route
     get:
-      description: Clears the DB. To be used with care. Requires authorization token to be included in the request header (Bearer ndsvn2g8dnsb9hsg).
+      description: Marks all the nonprofits as non-valid. To be called before the update (download, parse, index) process starts. Requires authorization token to be included in the request header (Bearer ndsvn2g8dnsb9hsg).
       # used as the method name of the controller
       operationId: delete
       parameters:
