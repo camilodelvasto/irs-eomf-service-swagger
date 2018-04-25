@@ -1,0 +1,11 @@
+{
+  "name": "irs-eomf-search-api-swagger-docs",
+  "version": "1.0.0",
+  "description": "The documentation for the IRS/EOMF Search API",
+  "author": "Camilo Delvasto <camilodelvasto@gmail.com>",
+  "private": true,
+  "scripts": {
+    "surge": "surge -p ./ -d irs-eomf-search-api-swagger-docs.surge.sh"
+  }
+}
+

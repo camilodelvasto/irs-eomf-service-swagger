@@ -3,9 +3,9 @@ info:
   version: "0.0.1"
   title: IRS/EOMF SearchApi
 # during dev, should point to your local machine
-host: https://irs-eomf-search-api.herokuapp.com
+host: "irs-eomf-search-api.herokuapp.com"
 # basePath prefixes all resource paths 
-basePath: /v1
+basePath: "/v1"
 # 
 schemes:
   # tip: remove http to make production-grade
